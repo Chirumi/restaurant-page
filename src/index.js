@@ -1,1 +1,1 @@
-import home from "./page.js"
+import home from "./home.js"
