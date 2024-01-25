@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Pacifico-Regular";
-    src: url("./Pacifico-Regular.ttf");
+    src: url("../font/Pacifico-Regular.ttf");
 }
 
 * {
@@ -15,7 +15,7 @@
 }
 
 body {
-    background-image: url("./photos/pexels-pixabay-260922.jpg");
+    background-image: url("../photos/pexels-pixabay-260922.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
