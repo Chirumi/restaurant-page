@@ -2,6 +2,7 @@ function home() {
     const content = document.getElementById("content")
 
     const contentContainer = document.createElement("div")
+    contentContainer.classList.add("contentContainer")
 
     const headline = document.createElement("h1")
     headline.textContent = "Indulge in Flavour: Discover Burger Prince's Signature Burgers!"
