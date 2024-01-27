@@ -88,6 +88,7 @@ body {
     width: 20vw;
     height: auto;
 }
+
 #content > div {
     display: flex;
     flex-direction: column;
@@ -107,7 +108,18 @@ body {
 .menuContent {
     display: flex;
     align-items: flex-start;
-    gap: 80px;
+    width: 620px;
+    gap: 100px;
+}
+
+.itemName {
+    font-size: 2em;
+}
+
+.itemName,
+.itemDesc {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .menuContent > div{
@@ -116,9 +128,14 @@ body {
     align-items: center;
 }
 
-.menuContent img {
+.menuItem {
     height: 20em;
-    width: 20em;
+    gap: 60px;
+}
+
+.menuItem img {
+    height: 320px;
+    width: 320px;
 }
 
 .footer {
