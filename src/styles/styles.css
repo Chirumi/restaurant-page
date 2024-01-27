@@ -84,24 +84,28 @@ body {
     opacity: 0;
 }
 
-#content > img {
+.imgHome {
     width: 20vw;
     height: auto;
 }
 
 #content > div {
     display: flex;
-    flex-direction: column;
-    width: 50vw;
+    align-items: center;
+    width: 70vw;
 }
 
-#content > div > h1 {
+.contentContainer {
+    gap: 80px;
+}
+
+.contentContainer > div h1 {
     font-size: 3em;
     margin-bottom: 30px;
     text-decoration: underline;
 }
 
-#content > div em {
+.contentContainer em {
     font-size: 1.25em;
 }
 
