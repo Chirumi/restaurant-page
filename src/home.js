@@ -1,5 +1,4 @@
 function home() {
-
     const contentContainer = document.createElement("div")
     contentContainer.classList.add("contentContainer")
 

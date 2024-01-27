@@ -18,6 +18,7 @@ body {
     background-image: url("../photos/pexels-pixabay-260922.jpg");
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
     height: 100vh;
     display: grid;
     grid-template-rows: 1.5fr 9fr 1fr;
@@ -32,6 +33,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 150px;
+    margin-bottom: 100px;
     grid-area: header;
 }
 
@@ -89,17 +91,34 @@ body {
 #content > div {
     display: flex;
     flex-direction: column;
-    gap: 2em;
     width: 50vw;
 }
 
-#content > div h1 {
+#content > div > h1 {
     font-size: 3em;
+    margin-bottom: 30px;
     text-decoration: underline;
 }
 
 #content > div em {
     font-size: 1.25em;
+}
+
+.menuContent {
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.menuContent > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuContent img {
+    height: 20em;
+    width: 20em;
 }
 
 .footer {
@@ -108,6 +127,7 @@ body {
     align-items: center;
     padding-top: 12px;
     padding-bottom: 12px;
+    margin-top: 100px;
     gap: 20px;
     grid-area: footer;
 }

@@ -1,5 +1,8 @@
 # restaurant-page
 
+NOTES = 
+1) To change from home to menu content tabs, I erased the childNodes of the container and then appended the menu import to that container (of which the imported menu function contains a return statement for the contents of the menu)
+
 ASSET SOURCES:
 1) Home BG image =  https://www.pexels.com/photo/empty-bar-filled-with-lights-260922/
 2) Font = https://fonts.google.com/specimen/Pacifico
