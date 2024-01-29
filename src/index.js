@@ -1,10 +1,12 @@
 import home from "./home.js"
 import "./styles/styles.css"
 import menu from "./menu.js"
+import contact from "./contact.js"
 
 const content = document.getElementById("content")
 const homeBtn = document.querySelector(".homeBtn")
 const menuBtn = document.querySelector(".menuBtn")
+const contactBtn = document.querySelector(".contactBtn")
 
 function removeAllChildNodes(parent) {
     while (parent.firstChild) {
@@ -35,6 +37,11 @@ menuBtn.addEventListener("click", () => {
 
     content.appendChild(menu)
 })
+
+contactBtn.addEventListener("click", () => {
+    removeAllChildNodes(content)
+})
+
 
 
 
