@@ -11,7 +11,7 @@ function menu() {
     menuContent.appendChild(itemTwo)
     menuContent.appendChild(itemThree)
     menuContent.appendChild(itemFour)
-
+    
     return menuContent
 }
 

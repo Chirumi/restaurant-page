@@ -2,23 +2,31 @@ function home() {
     const contentContainer = document.createElement("div")
     contentContainer.classList.add("contentContainer")
 
+    const headlineDescWrapper = document.createElement("div")
     const headline = document.createElement("h1")
     headline.textContent = "Indulge in Flavour: Discover Burger Prince's Signature Burgers!"
-    
     const description = document.createElement("em")
     description.textContent = "Welcome to Burger Prince, where each bite is a symphony of flavors crafted with culinary mastery. Our burgers redefine indulgence, featuring premium ingredients and expertly grilled patties"
+    
+    const imgWrapper = document.createElement("div")
+    const img = document.createElement("img")
+    img.classList.add("imgHome")
+    img.src = "../src/photos/pexels-chevanon-photography-1108117.jpg"
 
-    contentContainer.appendChild(headline)
-    contentContainer.appendChild(description)
+    headlineDescWrapper.appendChild(headline)
+    headlineDescWrapper.appendChild(description)
+    imgWrapper.appendChild(img)
+    contentContainer.appendChild(headlineDescWrapper)
+    contentContainer.appendChild(imgWrapper)
     content.prepend(contentContainer)
 
-    headline.classList.add("fadeIn", "fadeOut")
-    description.classList.add("fadeIn", "fadeOut")
+    contentContainer.classList.add("fadeIn", "fadeOut")
 
     requestAnimationFrame(() => {
-        headline.classList.remove("fadeOut")
-        description.classList.remove("fadeOut")
+        contentContainer.classList.remove("fadeOut")
     })
+
+    return contentContainer
 }
 
 export default home()

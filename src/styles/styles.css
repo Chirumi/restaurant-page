@@ -109,10 +109,9 @@ body {
     font-size: 1.25em;
 }
 
-.menuContent {
-    display: flex;
+#content > .menuContent {
+    flex-direction: column;
     align-items: flex-start;
-    width: 620px;
     gap: 100px;
 }
 
@@ -124,6 +123,7 @@ body {
 .itemDesc {
     display: flex;
     flex-wrap: wrap;
+    width: 500px;
 }
 
 .menuContent > div{
