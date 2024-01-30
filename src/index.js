@@ -37,7 +37,7 @@ menuBtn.addEventListener("click", () => {
 contactBtn.addEventListener("click", () => {
     removeAllChildNodes(content)
     addFadeInOut(contact)
-    contact.appendChild(contact)
+    content.appendChild(contact)
 })
 
 
