@@ -14,33 +14,32 @@ function removeAllChildNodes(parent) {
     }
 }
 
-homeBtn.addEventListener("click", () => {
-    removeAllChildNodes(content)
-
-    home.classList.add("fadeOut")
+function addFadeInOut(element) {
+    element.classList.add("fadeIn", "fadeOut")
 
     requestAnimationFrame(() => {
-        home.classList.remove("fadeOut")
+        element.classList.remove("fadeOut")
     })
+}
 
+homeBtn.addEventListener("click", () => {
+    removeAllChildNodes(content)
+    addFadeInOut(home)
     content.appendChild(home)
 })
 
 menuBtn.addEventListener("click", () => {
     removeAllChildNodes(content)
-
-    menu.classList.add("fadeIn", "fadeOut")
-
-    requestAnimationFrame(() => {
-        menu.classList.remove("fadeOut")
-    })
-
+    addFadeInOut(menu)
     content.appendChild(menu)
 })
 
 contactBtn.addEventListener("click", () => {
     removeAllChildNodes(content)
+    addFadeInOut(contact)
+    contact.appendChild(contact)
 })
+
 
 
 
