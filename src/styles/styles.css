@@ -142,6 +142,15 @@ body {
     width: 320px;
 }
 
+.contacts {
+    gap: 30px;
+    justify-content: center;
+}
+
+.contactInfo {
+    font-size: 1.5em;
+}
+
 .footer {
     display: flex;
     justify-content: center;
