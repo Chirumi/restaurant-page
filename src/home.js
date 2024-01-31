@@ -1,4 +1,4 @@
-import homeBurger from "../../src/photos/pexels-chevanon-photography-1108117.jpg"
+import homeBurger from "../src/photos/pexels-chevanon-photography-1108117.jpg"
 
 function home() {
     const contentContainer = document.createElement("div")
