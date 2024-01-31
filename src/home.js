@@ -11,7 +11,7 @@ function home() {
     description.textContent = "Welcome to Burger Prince, where each bite is a symphony of flavors crafted with culinary mastery. Our burgers redefine indulgence, featuring premium ingredients and expertly grilled patties"
     
     const imgWrapper = document.createElement("div")
-    const img = document.createElement("img")
+    const img = new Image()
     img.classList.add("imgHome")
     img.src = homeBurger
 
