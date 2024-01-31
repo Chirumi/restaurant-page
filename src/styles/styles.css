@@ -85,6 +85,7 @@ body {
 }
 
 .imgHome {
+    background-image: url("../photos/pexels-chevanon-photography-1108117.jpg");
     width: 20vw;
     height: auto;
 }
