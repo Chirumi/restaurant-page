@@ -1,9 +1,4 @@
 # restaurant-page
-
-PROBLEM =
-1) Image not loading on gh-pages, even though rule added under module in webpack config file to import images from src to dist. Possible solution is move the whole image folder to dist manually.
-Refer to other code submissions on restaurant page project TheOdinProject
-
 NOTES = 
 1) To change from home to menu content tabs, I erased the childNodes of the container and then appended the menu import to that container (of which the imported menu function contains a return statement for the contents of the menu)
 
