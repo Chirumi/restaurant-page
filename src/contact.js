@@ -1,3 +1,4 @@
+import locationMap from "./photos/locationMap.jpg"
 
 function contact() {
     const contactContainer = document.createElement("div")
@@ -6,7 +7,7 @@ function contact() {
     const locImgWrapper = document.createElement("div")
     locImgWrapper.classList.add("locImgWrapper")
     const locationImg = document.createElement("img")
-    locationImg.src = "./photos/locationMap.jpg"
+    locationImg.src = locationMap
 
     const contactInfo = document.createElement("div")
     contactInfo.classList.add("contactInfo")

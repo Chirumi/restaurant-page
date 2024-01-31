@@ -1,3 +1,5 @@
+import homeBurger from "./photos/pexels-chevanon-photography-1108117.jpg"
+
 function home() {
     const contentContainer = document.createElement("div")
     contentContainer.classList.add("contentContainer")
@@ -11,7 +13,7 @@ function home() {
     const imgWrapper = document.createElement("div")
     const img = new Image()
     img.classList.add("imgHome")
-    img.src = "./photos/pexels-chevanon-photography-1108117.jpg"
+    img.src = homeBurger
 
     headlineDescWrapper.appendChild(headline)
     headlineDescWrapper.appendChild(description)

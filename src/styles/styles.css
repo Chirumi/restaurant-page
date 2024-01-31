@@ -15,7 +15,7 @@
 }
 
 body {
-    background-image: url("./photos/pexels-pixabay-260922.jpg");
+    background-image: url("../photos/pexels-pixabay-260922.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
